@@ -80,3 +80,4 @@ def outlier_remover(df):
     df1 = df1.drop(to_remove)
     df1 = df1.reset_index(drop=True)
     return df1
+
